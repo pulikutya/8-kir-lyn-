@@ -1,0 +1,24 @@
+body {
+	font-family: "Cascadia Code", 'Courier New', Courier, monospace;
+	font-size: large;
+	background-color: #292929;
+	color:#cccccc
+}
+.Grid-Container {
+	display:grid;
+	grid-template-columns: repeat(8, 30px);
+	grid-template-rows: repeat(8, 30px);
+	display:grid;
+}
+.ws {
+	background-color: green;
+}
+.bs {
+	background-color: darkgreen;
+}
+.Grid-Element {
+	color:white;
+	border: solid black 1px;
+	text-align: center;
+}
+
